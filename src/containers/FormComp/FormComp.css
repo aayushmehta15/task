@@ -1,0 +1,18 @@
+form {
+    line-height: 3rem;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 0.9rem;
+}
+
+input[type="submit"] {
+    padding: 10px 50px;
+    font-size: 0.9rem;
+    margin-left: 20px;
+}
