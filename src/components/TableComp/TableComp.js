@@ -19,7 +19,7 @@ function TableComp(props) {
 
                 <tbody>
                     {props.userData.map((item, index) => (
-                        <tr key={item.class}>
+                        <tr key={index}>
                             <td>{item.class}</td>
                             <td>{item.numStudents}</td>
                             <td>{item.timeTable}</td>
